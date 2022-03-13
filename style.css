@@ -8,8 +8,9 @@ h1{
 .orange_color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 200px;
 }
 .blog1{
     width: 50%;
@@ -29,4 +30,23 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.blog1 img{
+    width: 100%;
+}
+.blog1{
+    padding-left: 5%;
+}
+.button2{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 12px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+}
+.section2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
