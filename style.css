@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange_color{
     color: orange;
 }
@@ -49,4 +52,33 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.color-orange{
+    color: orange;
+}
+.section3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.blog3{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    border-left: 10px solid;
+}
+#mmd{
+    border-image: linear-gradient(blue, cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+#mm{
+    border-image: linear-gradient(salmon, tomato);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+footer p{
+    text-align:center;
 }
